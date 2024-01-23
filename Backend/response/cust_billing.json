@@ -1,0 +1,20 @@
+{
+    "zok": {
+        "seat_no": "A01",
+        "name": "datta",
+        "email": "example@gmail.com",
+        "payment_method": "UPI",
+        "price": 0,
+        "id": "zok",
+        "payment_status": "confirmed"
+    },
+    "gopbR": {
+        "seat_no": "B21",
+        "name": "string",
+        "email": "example@gmail.com",
+        "payment_method": "UPI",
+        "price": 0,
+        "id": "gopbR",
+        "payment_status": "confirmed"
+    }
+}

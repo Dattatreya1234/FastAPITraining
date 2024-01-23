@@ -1,0 +1,137 @@
+{
+    "GcUL": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T06:44:04.545000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "GcUL",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "DeI": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T06:44:58.537000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "DeI",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "KD6": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T06:55:00.699000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "KD6",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "77Ny": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T06:55:56.282000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "77Ny",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "R2V0": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T07:25:20.442000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "R2V0",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "DqZ": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T07:28:25.140000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "DqZ",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "A7vmy": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T08:49:37.666000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "A7vmy",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 21
+    },
+    "Pc": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T09:55:08.456000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "Pc",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 22
+    },
+    "fZ": {
+        "title": "string",
+        "genre": "string",
+        "current_date": "2024-01-23T09:59:32.376000Z",
+        "seats": [
+            {
+                "seat_no": "string",
+                "status": "booked"
+            }
+        ],
+        "duration": 120,
+        "id": "fZ",
+        "release_date": "2024-01-01T09:51:15.461000",
+        "Days_after_release": 22
+    }
+}
