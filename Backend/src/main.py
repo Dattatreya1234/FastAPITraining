@@ -73,6 +73,7 @@ async def add_details(mv:req_body):
         k["Days_after_release"]=days_after_r
         create_response_json(id,k,path)
         info_log()
+        """hi"""
         return k
     except Exception:
         error_log()
