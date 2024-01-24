@@ -1,10 +1,10 @@
-from schema import req_body,resp_body,cust_req,cust_resp,patch_resp,book_req,status_choose
+from schema import req_body,resp_body,cust_req,cust_resp,patch_resp,book_req,status_choose,pay
 from typing import Annotated, Union,Optional
 import json
 import logging
 import string
 import secrets
-from fastapi import FastAPI, Query,Path,Body,HTTPException,status
+from fastapi import FastAPI, Query,Path,Body,HTTPException,status,Depends
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel,Field
 from datetime import datetime,date,timedelta
@@ -16,16 +16,12 @@ from datetime import datetime,date,timedelta
 
 app=FastAPI()
 
-# class patch_req:
-#     def __init__(self,seat_no:str
-#     name:Optional[str]=Query(default=None), email:str=Query(min_length=3,max_length=30,regex=r"^[a-zA-Z0-9\.+_]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"),
+# async def patch_req_fun(seat_no:str,
+#     name:Optional[str]=Query(default=None), email:str=Query(min_length=3,max_length=30,regex=r"^[a-zA-Z0-9/.+_]+@[a-zA-Z0-9-]+/.[a-zA-Z0-9-.]+$"),
 #     payment_method:pay or None=None,
 #     price:int or None=None):
-#         self.seat_no:seat_no
-#         name:str or None=None
-#         email:str=Query(min_length=3,max_length=30,regex=r"^[a-zA-Z0-9\.+_]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
-#         payment_method:pay or None
-#         price:int or None=None
+#     return {"seat_no":seat_no,"name":name,"email":email,"payment_method":payment_method,"price":price}
+
 
 def create_response_json(unique_id, data_dict, file_location):
     
@@ -52,9 +48,9 @@ def generate_id():
     random_id="".join(secrets.choice(char) for _ in range(length))
     return random_id
 
-path="C:/Users/DPatil/Backend/response/response.json"
-path1="C:/Users/DPatil/Backend/response/cust_billing.json"
-path2="C:/Users/DPatil/Backend/response/books.json"
+path="D:/FastAPITraining/Backend/response/response.json"
+path1="D:/FastAPITraining/Backend/response/cust_billing.json"
+path2="D:/FastAPITraining/Backend/response/books.json"
 
 @app.post("/movie_details/",response_model=resp_body,tags=['movie_details'])
 async def add_details(mv:req_body):

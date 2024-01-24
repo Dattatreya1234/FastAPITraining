@@ -52,7 +52,7 @@ class cust_resp(cust_req):
 class patch_req(BaseModel):
     seat_no:str
     name:str or None=None
-    email:str=Query(example = "example@gmail.com",min_length=3,max_length=30,regex=r"^[a-zA-Z0-9\.+_]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$",
+    email:str=Query(default = "example@gmail.com",min_length=3,max_length=30,regex=r"^[a-zA-Z0-9\.+_]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$",
                     )
     payment_method: pay or None
     price:int or None=Query(default=100,gt=50)

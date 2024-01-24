@@ -1,20 +1,20 @@
 {
-    "zok": {
-        "seat_no": "A01",
-        "name": "datta",
-        "email": "example@gmail.com",
+    "p0m0": {
+        "seat_no": "string",
+        "name": "yash",
+        "email": "yash@email.com",
         "payment_method": "UPI",
-        "price": 0,
-        "id": "zok",
-        "payment_status": "confirmed"
+        "price": 100,
+        "id": "string",
+        "payment_status": "booked"
     },
-    "gopbR": {
-        "seat_no": "B21",
+    "fkbhG": {
+        "seat_no": "c34",
         "name": "string",
         "email": "example@gmail.com",
         "payment_method": "UPI",
-        "price": 0,
-        "id": "gopbR",
+        "price": 100,
+        "id": "fkbhG",
         "payment_status": "confirmed"
     }
 }
